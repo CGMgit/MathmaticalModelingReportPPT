@@ -1,0 +1,123 @@
+% ===== 笃行 =====
+\section{笃行}
+
+% 配色与背景
+\definecolor{steelwhite}{RGB}{255,255,255}  % 比 white 更柔和一些
+\definecolor{textblack}{RGB}{255,255,255}
+
+\setbeamertemplate{background canvas}{
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south west, at=(current page.south west)] {
+      \includegraphics[width=\paperwidth,height=\paperheight]{bg-action.png}
+    };
+  \end{tikzpicture}
+}
+
+% ---- 封面页 ----
+\begin{frame}[plain]
+  \centering
+  \vspace{3.5cm}
+  {\color{steelwhite}\Huge\bfseries 笃行}
+\end{frame}
+
+% ---- 做不了，是因为落地不了 ----
+\begin{frame}{\color{steelwhite}做不了，是因为落地不了}
+\justifying
+{\color{textblack}
+许多同学的痛点不是“不理解”，而是：
+
+\vspace{0.5em}
+\begin{itemize}
+  \item 有想法，却无法实现；
+  \item 有公式，却跑不出代码；
+  \item 有模型，却生成不了结果。
+\end{itemize}
+
+\vspace{0.5em}
+“笃行”是让思想落地的能力，是将理论转化为实践的路径。
+}
+\end{frame}
+
+% ---- 工程落地的根：计算机能力 ----
+\begin{frame}{\color{steelwhite}工程落地的根：计算机能力}
+\justifying
+{\color{textblack}
+模型落地，不靠灵感，靠系统：
+
+\vspace{0.5em}
+\begin{itemize}
+  \item 数据结构与数值算法；
+  \item 文件组织与模块结构；
+  \item 调试分析与复现逻辑；
+  \item 工具链路与任务自动化。
+\end{itemize}
+
+\vspace{0.5em}
+计算机能力，不是锦上添花，而是建模的地基。
+}
+\end{frame}
+
+% ---- 四维能力闭环 ----
+\begin{frame}{\color{steelwhite}从“做不了”到“跑起来”：四维能力闭环}
+\justifying
+{\color{textblack}
+\textbf{1. 建模实现力}：能将理论表达为代码。\\
+\textbf{2. 系统组织力}：有结构的项目架构与版本管理。\\
+\textbf{3. 复现与调试力}：错误可查，模型可控。\\
+\textbf{4. 工具融合力}：将计算、排版、展示一体化。
+}
+\end{frame}
+
+% ---- 工具地图 ----
+\begin{frame}{\color{steelwhite}工具为骨，系统为脉}
+\justifying
+{\color{textblack}
+常用建模工具推荐（部分示例）：
+
+\begin{itemize}
+  \item \textbf{代码工具：} GitHub, VS Code, Jupyter
+  \item \textbf{建模语言：} Python (numpy, scipy, sklearn), MATLAB
+  \item \textbf{排版展示：} Overleaf, LaTeX, TikZ
+  \item \textbf{协作工具：} Trello, Notion, Git
+  \item \textbf{AI助手：} ChatGPT, GitHub Copilot
+\end{itemize}
+
+\vspace{0.5em}
+\centering
+善用工具，是执行力的最小单位。
+}
+\end{frame}
+
+% ---- AI × 动手公式页 ----
+\begin{frame}{\color{steelwhite}AI时代，动手是指数维度的能力}
+\justifying
+{\color{textblack}
+\[
+\text{建模执行力} \approx \text{动手能力} \times \exp(\text{AI 助力指数})
+\]
+
+\vspace{0.5em}
+\begin{itemize}
+  \item 不会动手 → AI 也帮不了你；
+  \item 会动手 → AI 成为你的超能力；
+\end{itemize}
+
+\vspace{0.5em}
+AI 是加速器，动手是起跑线。
+}
+\end{frame}
+
+% ---- 精神收束 ----
+\begin{frame}{\color{steelwhite}动手，是唯一的出路}
+\justifying
+{\color{textblack}
+在 AI 帮你跑图之前，\\
+你要先学会自己跑一行代码；\\
+在模型结果出来之前，\\
+你要先把路径搭起来。
+
+\vspace{1em}
+\centering
+\textbf{\color{steelwhite}“笃行”，是让结果真实发生的唯一路径。}
+}
+\end{frame}

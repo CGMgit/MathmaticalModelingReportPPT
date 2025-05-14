@@ -1,0 +1,50 @@
+\documentclass[10pt]{beamer}
+
+% ===== Beamer 基础设置 =====
+\usetheme{default}
+\usecolortheme{default}
+\usefonttheme{default}
+\useinnertheme{default}
+\useoutertheme{default}
+
+% ===== 字体 =====
+\usepackage{xeCJK}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Times New Roman}
+\setmonofont{Courier New}
+\setCJKmainfont{SimSun}
+\setCJKsansfont{Microsoft YaHei}
+
+% ===== 图像与颜色 =====
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+
+\graphicspath{{image/}}
+
+% ===== 字体颜色统一为白色与深蓝节点 =====
+\definecolor{myblue}{RGB}{30,60,130}
+\setbeamercolor{title}{fg=blue!60!black}  % 主标题深蓝
+\setbeamercolor{subtitle}{fg=white}        % 副标题白色
+\setbeamercolor{author}{fg=white}
+\setbeamercolor{date}{fg=white}
+\setbeamercolor{institute}{fg=white}
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{section in toc}{fg=white}
+\setbeamercolor{subsection in toc}{fg=white}
+
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+
+\input{Intro.tex}
+\input{knowledge.tex}
+\input{action.tex}
+\input{honest.tex}
+\input{tough.tex}
+
+\end{document}

@@ -1,0 +1,132 @@
+% ===== 博学 =====
+\section{博学}
+
+% 定义专属颜色（高对比冷光蓝）
+\definecolor{techwhite}{RGB}{0,0,0}
+
+% 背景图设定
+\setbeamertemplate{background canvas}{
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south west, at=(current page.south west)] {
+      \includegraphics[width=\paperwidth,height=\paperheight]{bg-knowledge.png}
+    };
+  \end{tikzpicture}
+}
+
+% ---- 封面页 ----
+\begin{frame}[plain]
+  \centering
+  \vspace{3.5cm}
+  {\color{techwhite}\Huge\bfseries 博学}
+\end{frame}
+
+% ---- 本质引入 ----
+\begin{frame}{\color{techwhite}建模，是一种科学思维}
+\justifying
+{\color{techwhite}
+建模不是做题，而是\textbf{组织知识、构建系统、生成解释}的过程。
+
+\vspace{0.5em}
+这意味着它和科学研究类似——
+
+我们不是找到一个正确答案，而是构建一个逻辑自洽的解释系统。
+}
+\end{frame}
+
+% ---- 演绎与归纳 ----
+\begin{frame}{\color{techwhite}科学推理的两条主线}
+\justifying
+{\color{techwhite}
+\textbf{演绎（Deduction）：}
+\begin{itemize}
+  \item 从已有理论出发，推导模型与结果；
+  \item 建模时常用于方程建构、控制逻辑。
+\end{itemize}
+
+\textbf{归纳（Induction）：}
+\begin{itemize}
+  \item 从数据中提取规律，再构建解释；
+  \item 建模时常用于拟合预测、模式识别。
+\end{itemize}
+
+\vspace{0.5em}
+比赛多数问题，是\textbf{以演绎为主导}，在范式中选择与优化。
+}
+\end{frame}
+
+% ---- 知识范式与从有到好 ----
+\begin{frame}{\color{techwhite}从有到好：范式驱动的推理过程}
+\justifying
+{\color{techwhite}
+很多同学以为建模是“从零开始”。
+
+其实——
+\begin{itemize}
+  \item 题目有背景，方法有历史；
+  \item 我们不是在造房子，而是在已有图纸上优化结构；
+  \item 本质上是“从有到好”的演绎过程。
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{博学}，是知道在哪类问题中用什么范式，怎么变形与组合。
+}
+\end{frame}
+
+% ---- 写作链条 ----
+\begin{frame}{\color{techwhite}写作，是博学的外化过程}
+\justifying
+{\color{techwhite}
+建模论文的结构：
+\begin{itemize}
+  \item 问题定义 → 模型构建 → 推理求解 → 实验验证 → 分析结论；
+\end{itemize}
+
+但写作中最大的问题：
+\begin{itemize}
+  \item 模型从哪里来？
+  \item 结构为什么这样？
+  \item 数据怎么解释？
+\end{itemize}
+
+\textbf{博学}决定你是否知道：你到底在说什么、推了什么、怎么合理。
+}
+\end{frame}
+
+% ---- 学不会怎么办？----
+\begin{frame}{\color{techwhite}知识太多，我们该怎么学？}
+\justifying
+{\color{techwhite}
+学生常问：
+
+\vspace{0.5em}
+\begin{itemize}
+  \item 知识太杂，学不动；
+  \item 工具太多，记不住；
+  \item 题型太广，不会归纳。
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{博学的第一步，不是学全部，而是建立“知识系统”}
+
+\centering
+\textbf{从问题出发，划分类别，掌握经典模型。}
+}
+\end{frame}
+
+% ---- 模型系统六分类 ----
+\begin{frame}{\color{techwhite}六大问题类型，对应六类模型系统}
+\justifying
+{\color{techwhite}
+大多数建模题都可归入六种任务场景：
+
+\vspace{0.5em}
+\begin{itemize}
+  \item \textbf{预测类：} 回归、时间序列、马尔科夫链；
+  \item \textbf{评价类：} AHP、TOPSIS、聚类分析；
+  \item \textbf{优化类：} 线性/整数规划、动态规划；
+  \item \textbf{自动控制类：} MPC、强化学习、状态空间；
+  \item \textbf{传播与调度类：} ODE模型、图论调度、遗传算法；
+  \item \textbf{分类识别类：} 决策树、SVM、KNN、逻辑回归。
+\end{itemize}
+}
+\end{frame}

@@ -1,0 +1,80 @@
+% ===== 封面页 =====
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south west, at=(current page.south west)] {
+      \includegraphics[width=\paperwidth,height=\paperheight]{bg-tech.png}
+    };
+  \end{tikzpicture}
+
+  \centering
+  \vspace{2.2cm}
+  {\fontsize{20pt}{24pt}\selectfont \textbf{\color{blue!60!black}数创未来，智领建模：}}\\[0.8em]
+  {\fontsize{14pt}{18pt}\selectfont \textcolor{white}{以“校训四训”看一场比赛的逻辑}}\\[3em]
+  {\fontsize{16pt}{18pt}\selectfont \textbf{\color{white}龚家和}}\\[1em]
+  {\small\color{white}安徽大学·纽约石溪学院}\\
+  {\small\color{white}应用统计学专业}\\[2em]
+  {\large\color{white}2025 年 \quad 5 月 \quad 15 日}
+\end{frame}
+
+% ===== 引言部分统一背景设置 =====
+\section{引言}
+\setbeamertemplate{background canvas}{
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south west, at=(current page.south west)] {
+      \includegraphics[width=\paperwidth,height=\paperheight]{bg-tech.png}
+    };
+  \end{tikzpicture}
+}
+
+% ===== 目录页 =====
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south west, at=(current page.south west)] {
+      \includegraphics[width=\paperwidth,height=\paperheight]{bg-tech.png}
+    };
+  \end{tikzpicture}
+  \frametitle{\textcolor{white}{目录}}
+  \tableofcontents
+\end{frame}
+
+\begin{frame}[plain]
+  \centering
+  \vspace{3.5cm}
+  {\Huge\bfseries 引言}
+\end{frame}
+
+% ===== 痛点页 =====
+\begin{frame}{一个比赛，四个痛点}
+\justifying
+面对数学建模，我们常常会感到：
+\vspace{1em}
+\begin{itemize}
+  \item \textbf{学不会：} 知识太杂太多，不知从哪开始；
+  \item \textbf{做不了：} 模型不会建，代码不敢写，论文写不出；
+  \item \textbf{没人带：} 学长太忙，队友不懂，孤军奋战很难熬；
+  \item \textbf{怕失败：} 初次参赛，信心不足，担心白忙一场。
+\end{itemize}
+
+\vspace{1em}
+\centering
+{\large \textbf{其实，所有问题，校训早已给出答案。}}
+\end{frame}
+
+% ===== 四训呼应页 =====
+\begin{frame}{四训：不是口号，是解法}
+\justifying
+\color{blue!60!black}\textbf{我们从不只讲精神——校训四训，是破解建模困境的四把钥匙：}
+\vspace{1em}
+\begin{itemize}
+  \item \textbf{博学：} 系统构建知识体系，化繁为简不再怕；
+  \item \textbf{笃行：} 动手比什么都重要，不试不知深浅；
+  \item \textbf{至诚：} 组队靠信任，建模靠真诚，不投机不作弊；
+  \item \textbf{至坚：} 再难也能顶住，跌倒再来就是赢。
+\end{itemize}
+
+\vspace{1em}
+\centering
+{\large \color{white}\textbf{四训，是我们建模之路的主心骨。}}
+\end{frame}
+
+
